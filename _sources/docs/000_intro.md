@@ -11,6 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# Linux-Server-Management
+# Konzept für digitales Miteinander
 
-Unterrichtsplanung, -inhalte und -materialien für Linux-Server-Management am Wim-Wenders-Gymnasium Düsseldorf.
+Dieses Konzept beinhaltet mehr als ein übliches Medienkonzept.
+Es ist vielmehr ein [Whitepaper](https://en.wikipedia.org/wiki/White_paper), dass eine Übersicht über die Intentionen, Leistungen, Standards und technischen Stand des [Städtischen Wim-Wenders-Gymnasiums](https://ww-gym.de) gibt.

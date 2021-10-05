@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Konzept für digitales Miteinander &#8212; Konzept für digitales Miteinander</title>
+    <title>1. Zielsetzung &#8212; Konzept für digitales Miteinander</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -78,14 +78,15 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="1. Zielsetzung" href="001_zielsetzung.html" />
+    <link rel="next" title="2. Theoretische Grundlage" href="002_theoretische_grundlage.html" />
+    <link rel="prev" title="Konzept für digitales Miteinander" href="000_intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -120,15 +121,15 @@ commentsRunWhenDOMLoaded(addUtterances);
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="000_intro.html">
    Konzept für digitales Miteinander
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="001_zielsetzung.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    1. Zielsetzung
   </a>
  </li>
@@ -177,11 +178,11 @@ commentsRunWhenDOMLoaded(addUtterances);
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         <a class="dropdown-buttons"
-            href="../_sources/docs/000_intro.ipynb"><button type="button"
+            href="../_sources/docs/001_ziele.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Notebook-Datei herunterladen" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/docs/000_intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/docs/001_ziele.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Quelldatei herunterladen" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -201,7 +202,7 @@ commentsRunWhenDOMLoaded(addUtterances);
                 data-toggle="tooltip" data-placement="left" title="Quell-Repository"><i
                     class="fab fa-github"></i>Repository</button></a>
         <a class="issues-button"
-            href="https://github.com/tom-tubeless/wwg-digitales-miteinander/issues/new?title=Issue%20on%20page%20%2Fdocs/000_intro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/tom-tubeless/wwg-digitales-miteinander/issues/new?title=Issue%20on%20page%20%2Fdocs/001_ziele.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Öffnen Sie ein Problem"><i class="fas fa-lightbulb"></i>offenes Thema</button></a>
         
@@ -222,7 +223,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/tom-tubeless/wwg-digitales-miteinander/main?urlpath=tree/book/docs/000_intro.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/tom-tubeless/wwg-digitales-miteinander/main?urlpath=lab/tree/book/docs/001_ziele.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Starten Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -230,6 +231,9 @@ commentsRunWhenDOMLoaded(addUtterances);
         
         
         
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Starten Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
         
     </div>
 </div>
@@ -239,6 +243,29 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Inhalt
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#medien-im-wandel">
+   1.1. Medien im Wandel
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#zeitgemasze-lernkultur">
+   1.2. Zeitgemäße Lernkultur
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bezug-zu-kernlehrplanen">
+   1.3. Bezug zu Kernlehrplänen
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -247,20 +274,25 @@ commentsRunWhenDOMLoaded(addUtterances);
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="konzept-fur-digitales-miteinander">
-<h1>Konzept für digitales Miteinander<a class="headerlink" href="#konzept-fur-digitales-miteinander" title="Permalink to this headline">¶</a></h1>
-<p>Dieses Konzept beinhaltet mehr als ein übliches Medienkonzept.
-Es ist vielmehr ein <a class="reference external" href="https://en.wikipedia.org/wiki/White_paper">Whitepaper</a>, dass eine Übersicht über die Intentionen, Leistungen, Standards und technischen Stand des <a class="reference external" href="https://ww-gym.de">Städtischen Wim-Wenders-Gymnasiums</a> gibt.</p>
-<div class="toctree-wrapper compound">
+  <div class="tex2jax_ignore mathjax_ignore section" id="zielsetzung">
+<h1><span class="section-number">1. </span>Zielsetzung<a class="headerlink" href="#zielsetzung" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="medien-im-wandel">
+<h2><span class="section-number">1.1. </span>Medien im Wandel<a class="headerlink" href="#medien-im-wandel" title="Permalink to this headline">¶</a></h2>
 </div>
+<div class="section" id="zeitgemasze-lernkultur">
+<h2><span class="section-number">1.2. </span>Zeitgemäße Lernkultur<a class="headerlink" href="#zeitgemasze-lernkultur" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="bezug-zu-kernlehrplanen">
+<h2><span class="section-number">1.3. </span>Bezug zu Kernlehrplänen<a class="headerlink" href="#bezug-zu-kernlehrplanen" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="id1"></span></div>
 </div>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
+            repo: "tom-tubeless/wwg-digitales-miteinander",
+            ref: "main",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -284,11 +316,20 @@ Es ist vielmehr ein <a class="reference external" href="https://en.wikipedia.org
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="000_intro.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Konzept für digitales Miteinander</p>
+            </div>
+        </a>
+    </div>
      <div id="next">
-        <a class="right-next" href="001_zielsetzung.html" title="next page">
+        <a class="right-next" href="002_theoretische_grundlage.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title"><span class="section-number">1. </span>Zielsetzung</p>
+                <p class="prevnext-title"><span class="section-number">2. </span>Theoretische Grundlage</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
