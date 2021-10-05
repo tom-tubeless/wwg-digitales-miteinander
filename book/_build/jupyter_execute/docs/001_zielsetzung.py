@@ -49,7 +49,37 @@
 # 
 # Die Maßnahmen der Schule (vgl. S. \pageref{sec:praevention}) haben folgende Intentionen:
 # 
+# ### Förderung der Empathie
+# 
+# Eine empathische Haltung den Mitmenschen gegenüber, erzielt laut den aktuellen Forschungsergebnissen die stärkste Wirkung bei der Prävention und der Unterbindung von Gewalt sowohl in der virtuellen, als auch in der realen Welt.
+# 
+# ### Förderung der Medienwirkungskompetenz
+# 
+# Die Schüler\*Innen des Wim-Wenders-Gymnasiums erwerben ein ausgeprägtes Medienwissen und Fähigkeit zur analytischen, reflektierten und sozialbestimmenden Medienkritik.
+# 
+# ### Aufzeigen prosozialer Handlungspositionen
+# 
+# Mobbing wird unter anderem als Demonstration der Macht ausgeführt. Dieses Verhalten ist adoptiert. Förderung des prosozialen Handelns auf der Klassenebene kann indirekt das Verhalten von Kindern beeinflussen.
+# 
+# ### Förderung des Selbstvertrauens in die eignen Überzeugungen
+# 
+# Einstellungen und Verhalten der Freunde spielt bei der Motivation zur Ausübung von Cybermobbing eine wichtige Rolle. Täter mit einem hohen öffentlichen Score können das Verhalten der Gruppe beeinflussen.
+# Schüler\*Innen, die keine positive Einstellung dem Cybermobbing gegenüber haben, sollten eine Abneigung gegenüber dem Täterverhalten entwickeln.
+# 
+# ### Präventive und Intervenierende Maßnahmen (bei Risikogruppen)
+# 
+# Änderung der Einstellungen und Unterbindung des Zusammenhangs der wahrgenommenen Verhaltenskontrolle und des Cybermobbings.
+# 
+# Das Wim-Wenders-Gymnasium möchte eine Schule sein, die die Schüler\*Innen entlang ihrer lebenslangen Lernbiografie fördert, fordert und im positiven Sinne prägt.
+# Die Werte und Normen einer salutogenen Schule müssen also auf die digitalen Kompetenzen übertragen werden.
+# Grundlage dafür kann eine transparente Kommunikation und demokratische Entscheidungsprozesse sein.
+# Die Schule will zur ständigen Evaluation und Optimierung digitale Werkzeuge testen und verwenden.
+# 
 # ## Bezug zu Kernlehrplänen
+# 
+# Die [Kernlehrpläne des Landes Nordrhein-Westfalen](https://www.schulentwicklung.nrw.de/lehrplaene/lehrplannavigator-s-i/) fordern seit 2014 explizit den Einsatz neuer Medien im Unterricht. So sieht zum Beispiel der Lehrplan im Fach Kunst den Einsatz von Software zum Ton- und Videoschnitt und von Bildbearbeitungsprogrammen vor.
+# Mit Bezug zum besonderen Schwerpunkt des Wim-Wenders-Gymnasiums (Die Verbindung von Kunst und Naturwissenschaften) sind alle Fächer aufgerufen, nach sinnvollen Möglichkeiten im Umgang mit den Medien zu suchen.
+# Das Konzept für das digitale Miteinander stellt dafür gemeinsam mit der Lehrplan-Partitur die Grundlage dar.
 # 
 # ```{bibliography}
 # :style: plain
