@@ -40,6 +40,15 @@
 # Mit der Verankerung digitaler Medien im Unterricht handelt das Wim-Wenders-Gymnasium auch im Sinne der Nachhaltigkeit.
 # Individuelle Förderung, Übungen, die nach Bedarf bearbeitet werden und wichtige Informationen können effizient geteilt, kooperativ bearbeitet und für alle papierlos zugänglich gemacht werden.
 # 
+# Dem Wim-Wenders-Gymnasium ist es wichtig einen maßvollen Umgang mit Medien zu lehren.
+# Studien legen nahe, dass einige digitale Medien ein gewisses Suchtpotential haben {cite:ps}`Rehbein2012` und somit einen Lernprozess negativ beeinflussen können.
+# Durch einen geplanten und gezielten Einsatz von „neuen“ Medien gepaart mit dem Einsatz „klassischer“ Medien will das Wim-Wenders-Gymnasium dem entgegen wirken.
+# So ist zum Beispiel auf dem Gelände des Wim-Wenders-Gymnasium die Nutzung privater digitaler Endgeräte zu privaten Zwecken verboten.
+# Dies soll nicht nur für eine kommunikative salutogene Atmosphäre sorgen, sondern auch einen positiven Einfluss auf die Leistungen der Schüler\*Innen haben. {cite:ps}`Beland2016`
+# Auch der Anonymisierung innerhalb der Schulgemeinde soll so vorgebeugt werden, gilt sie doch als Nährboden für den Missbrauch digitaler Medien wie zum Beispiel Cybermobbing.
+# 
+# Die Maßnahmen der Schule (vgl. S. \pageref{sec:praevention}) haben folgende Intentionen:
+# 
 # ## Bezug zu Kernlehrplänen
 # 
 # ```{bibliography}
