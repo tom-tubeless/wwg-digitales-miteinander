@@ -31,9 +31,11 @@ Die letzten beiden Aspekte stellen die Handlung in den Mittelpunkt und sind dami
 3. Bei der _Mediennutzung_ sollen Medien sowohl rezeptiv angewendet, als auch interaktiv angeboten werden.
 4. Zum Aspekt der _Mediengestaltung_ gehört die _innovative_ Veränderung und Entwicklung des Mediensystems und die _kreative_ Gestaltung von Medien.
 
-Ausgestaltet sind die Aspekte der allgemeinen Medienkompetenz im Kapitel Curriculum. Sie verzahnen dabei den Medienkompetenz-Rahmen NRW, den Medienpass NRW sowie die schulinternen Curricula der einzelnen Fächer.
+Ausgestaltet sind die Aspekte der allgemeinen Medienkompetenz im Kapitel Curriculum.
+Sie verzahnen dabei den Medienkompetenz-Rahmen NRW, den Medienpass NRW sowie die schulinternen Curricula der einzelnen Fächer.
 
-Eine besondere Rolle wird in Zukunft die Informatische Grundbildung in der Erprobungsstufe spielen. Neben dem den Lehrplänen des Landes werden soll die inhaltliche Gestaltung des schulinternen Lehrplans den internationalen [CSTA K–12 CS Standards](https://www.csteachers.org/page/about-csta-s-k-12-nbsp-standards) entsprechen {cite:ps}`CSTA2017`.
+Eine besondere Rolle wird in Zukunft die Informatische Grundbildung in der Erprobungsstufe spielen.
+Neben dem den Lehrplänen des Landes werden soll die inhaltliche Gestaltung des schulinternen Lehrplans den internationalen [CSTA K–12 CS Standards](https://www.csteachers.org/page/about-csta-s-k-12-nbsp-standards) entsprechen {cite:ps}`CSTA2017`.
 
 ```{bibliography}
 :style: plain

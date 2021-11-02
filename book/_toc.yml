@@ -8,5 +8,6 @@ options:
 chapters:
   - file: docs/001_zielsetzung
   - file: docs/002_theoretische_grundlage
+  - file: docs/003_silp
   # sections:
   #   - file: docs/101_hello_world
