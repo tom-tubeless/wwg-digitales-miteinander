@@ -83,6 +83,6 @@
 # Mit Bezug zum besonderen Schwerpunkt des Wim-Wenders-Gymnasiums (Die Verbindung von Kunst und Naturwissenschaften) sind alle Fächer aufgerufen, nach sinnvollen Möglichkeiten im Umgang mit den Medien zu suchen.
 # Das Konzept für das digitale Miteinander stellt dafür gemeinsam mit der Lehrplan-Partitur die Grundlage dar.
 # 
-# ```{bibliography}
+# <!-- ```{bibliography}
 # :style: plain
-# ```
+# ``` -->

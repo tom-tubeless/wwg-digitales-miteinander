@@ -27,6 +27,7 @@
 # Eine besondere Rolle wird in Zukunft die Informatische Grundbildung in der Erprobungsstufe spielen.
 # Neben dem den Lehrplänen des Landes werden soll die inhaltliche Gestaltung des schulinternen Lehrplans den internationalen [CSTA K–12 CS Standards](https://www.csteachers.org/page/about-csta-s-k-12-nbsp-standards) entsprechen {cite:ps}`CSTA2017`.
 # 
+# <!--
 # ```{bibliography}
 # :style: plain
-# ```
+# ``` -->
